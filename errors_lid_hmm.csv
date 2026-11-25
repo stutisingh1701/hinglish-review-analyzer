@@ -1,0 +1,201 @@
+word,gold,hmm_pred,CRF (word/char features),count
+to,EN,HI,still wrong,175
+to,HI,EN,fixed,165
+the,HI,EN,fixed,132
+sir,HI,EN,still wrong,102
+to,EN,HI,fixed,96
+is,HI,EN,fixed,94
+to,HI,EN,still wrong,67
+is,HI,EN,still wrong,58
+do,EN,HI,fixed,54
+the,HI,EN,still wrong,41
+me,EN,HI,still wrong,39
+do,EN,HI,still wrong,34
+sir,HI,EN,fixed,32
+me,EN,HI,fixed,30
+do,HI,EN,still wrong,30
+do,HI,EN,fixed,20
+astechnic,HI,EN,still wrong,18
+use,EN,HI,still wrong,14
+tune,HI,EN,still wrong,12
+us,EN,HI,still wrong,12
+us,HI,EN,fixed,11
+man,EN,HI,still wrong,8
+0707,HI,EN,still wrong,8
+cicero,EN,HI,fixed,8
+use,EN,HI,fixed,7
+band,EN,HI,still wrong,7
+bare,EN,HI,still wrong,7
+beta,EN,HI,still wrong,6
+kudca,HI,EN,fixed,6
+us,EN,HI,fixed,6
+pure,EN,HI,still wrong,6
+ram,EN,HI,fixed,6
+main,EN,HI,still wrong,6
+hi,EN,HI,still wrong,6
+pure,HI,EN,still wrong,5
+tune,HI,EN,fixed,5
+tikait,HI,EN,still wrong,5
+bruh,HI,EN,still wrong,5
+ayazkarim,HI,EN,fixed,4
+bsrd,HI,EN,still wrong,4
+balochistan,EN,HI,still wrong,4
+03351400098,HI,EN,fixed,4
+they,HI,EN,still wrong,4
+th,EN,HI,fixed,4
+parti,HI,EN,still wrong,4
+upgradation,EN,HI,fixed,4
+they,HI,EN,fixed,4
+hi,EN,HI,fixed,4
+venk,EN,HI,still wrong,4
+zeecomedyshow,HI,EN,fixed,4
+railapprentices,HI,EN,still wrong,4
+hatesfarmers,HI,EN,fixed,4
+bitsz,HI,EN,still wrong,4
+aug6th,HI,EN,fixed,4
+jiyaras,HI,EN,fixed,4
+blu,EN,HI,fixed,4
+ulema,EN,HI,still wrong,3
+rashamians,HI,EN,fixed,3
+urselves,HI,EN,still wrong,3
+liveitup,HI,EN,still wrong,3
+log,EN,HI,still wrong,3
+terorist,HI,EN,still wrong,3
+rul,EN,HI,still wrong,3
+yrr,EN,HI,still wrong,3
+thegold,HI,EN,still wrong,3
+panju,EN,HI,still wrong,3
+plz,HI,EN,still wrong,3
+shahzad,EN,HI,still wrong,3
+hnn,EN,HI,still wrong,3
+scert,EN,HI,fixed,3
+teamaft,HI,EN,still wrong,3
+5267,HI,EN,still wrong,3
+favouritism,EN,HI,fixed,3
+0580,HI,EN,fixed,3
+kazen,EN,HI,still wrong,3
+devide,HI,EN,still wrong,3
+041296,HI,EN,fixed,3
+amai,EN,HI,still wrong,3
+babar,EN,HI,still wrong,3
+scamsung,HI,EN,still wrong,3
+expire,EN,HI,fixed,3
+agly,HI,EN,fixed,3
+showoff,EN,HI,fixed,3
+sublime,EN,HI,still wrong,3
+poker,EN,HI,fixed,3
+pokersaint,HI,EN,still wrong,3
+khelate,HI,EN,still wrong,3
+omer,HI,EN,fixed,3
+komedy,HI,EN,still wrong,2
+mashriqi,EN,HI,still wrong,2
+had,HI,EN,still wrong,2
+kanwar,HI,EN,fixed,2
+juld,HI,EN,still wrong,2
+barmer,HI,EN,still wrong,2
+mujlim,HI,EN,fixed,2
+sethiya,EN,HI,still wrong,2
+mojo,EN,HI,fixed,2
+chez,EN,HI,still wrong,2
+prblms,HI,EN,fixed,2
+audi,EN,HI,fixed,2
+ptr,EN,HI,still wrong,2
+cbseregularstudents,HI,EN,fixed,2
+navbharat,EN,HI,still wrong,2
+plzzz,HI,EN,still wrong,2
+dehlvi,EN,HI,still wrong,2
+mitron,EN,HI,still wrong,2
+ashan,EN,HI,still wrong,2
+usmani,EN,HI,still wrong,2
+dontoffairkudca,HI,EN,fixed,2
+extendkudca,HI,EN,fixed,2
+wewantkudca,HI,EN,fixed,2
+tien,EN,HI,still wrong,2
+whah,EN,HI,fixed,2
+aksai,EN,HI,still wrong,2
+varta,EN,HI,still wrong,2
+captaln,EN,HI,fixed,2
+sampurn,HI,EN,fixed,2
+jote,EN,HI,still wrong,2
+pure,HI,EN,fixed,2
+sirkar,EN,HI,still wrong,2
+ulama,HI,EN,still wrong,2
+kom,EN,HI,fixed,2
+hater,EN,HI,still wrong,2
+benq,EN,HI,still wrong,2
+nextdoor,EN,HI,still wrong,2
+ishvar,EN,HI,still wrong,2
+youtuber,EN,HI,still wrong,2
+gujri,EN,HI,still wrong,2
+kate,HI,EN,still wrong,2
+sialkot,EN,HI,still wrong,2
+fti,EN,HI,still wrong,2
+downfall,EN,HI,fixed,2
+abbasi,HI,EN,fixed,2
+karmo,EN,HI,still wrong,2
+rangu,EN,HI,still wrong,2
+boo,EN,HI,still wrong,2
+071001,HI,EN,fixed,2
+mahmood,EN,HI,still wrong,2
+disadvntg,HI,EN,still wrong,2
+keun,EN,HI,still wrong,2
+maniafc,HI,EN,fixed,2
+msde,EN,HI,still wrong,2
+gatha,EN,HI,still wrong,2
+justic,HI,EN,still wrong,2
+dvn,HI,EN,still wrong,2
+man,HI,EN,still wrong,2
+ban,EN,HI,still wrong,2
+aicf,EN,HI,still wrong,2
+9821079168,HI,EN,fixed,2
+kanooni,HI,EN,fixed,2
+dip,EN,HI,fixed,2
+naib,EN,HI,still wrong,2
+maulana,EN,HI,still wrong,2
+indvsaus,HI,EN,fixed,2
+gark,HI,EN,fixed,2
+ram,EN,HI,still wrong,2
+ceasefire,EN,HI,fixed,2
+bakshish,EN,HI,still wrong,2
+netaon,EN,HI,still wrong,2
+custody,EN,HI,fixed,2
+bissness,HI,EN,still wrong,2
+8955929303,HI,EN,fixed,2
+diva,EN,HI,still wrong,2
+ripley,EN,HI,still wrong,2
+encash,EN,HI,fixed,2
+islamicquotes,HI,EN,still wrong,2
+shamsheer,EN,HI,still wrong,2
+ragnar,EN,HI,still wrong,2
+paran,EN,HI,still wrong,2
+gaer,EN,HI,still wrong,2
+tlm,EN,HI,fixed,2
+klp,EN,HI,fixed,2
+bhah,EN,HI,still wrong,2
+pake,EN,HI,still wrong,2
+associate,EN,HI,fixed,2
+x0,EN,HI,fixed,2
+pardon,EN,HI,still wrong,2
+baisa,EN,HI,still wrong,2
+motherland,EN,HI,fixed,2
+kde,HI,EN,fixed,2
+chhadeya,HI,EN,still wrong,2
+ahmad330,HI,EN,fixed,2
+asadi,EN,HI,still wrong,2
+jamwal,EN,HI,still wrong,2
+klrahul,EN,HI,still wrong,2
+s7,EN,HI,fixed,2
+aadatians,HI,EN,fixed,2
+faruqi,EN,HI,still wrong,2
+apnar,HI,EN,fixed,2
+mojumdar,EN,HI,still wrong,2
+coveid,HI,EN,fixed,2
+axa,EN,HI,still wrong,2
+nameet,HI,EN,still wrong,2
+junglee,EN,HI,still wrong,2
+nargis,HI,EN,fixed,2
+93000,HI,EN,fixed,2
+mola,EN,HI,still wrong,2
+ramkesh,EN,HI,still wrong,2
+takai,EN,HI,still wrong,2
+aahir,HI,EN,still wrong,2

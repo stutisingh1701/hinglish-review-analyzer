@@ -1,0 +1,44 @@
+review_id,text,aspect,sentiment
+s01,Camera bohot mast hai but battery jaldi khatam ho jati h,camera,positive
+s01,Camera bohot mast hai but battery jaldi khatam ho jati h,battery,negative
+s02,Display ekdum zabardast hai yaar,display,positive
+s03,Phone gaming me bahut garam hota hai,performance,negative
+s04,Price ke hisaab se paisa vasool phone hai,price,positive
+s05,Battery backup bekaar hai 4 ghante bhi nahi chalti,battery,negative
+s06,Delivery fast thi par packaging ghatiya thi,service,positive
+s06,Delivery fast thi par packaging ghatiya thi,service,negative
+s07,Camera quality accha nahi hai photos blur aati hain,camera,negative
+s08,Design premium lagta hai aur weight bhi kam hai,design,positive
+s09,Speaker ki awaaz bahut low hai,audio,negative
+s10,Processor smooth chalta hai koi lag nahi,performance,positive
+s11,Itna mehnga phone aur features average,price,negative
+s12,Selfie camera thik thak hai,camera,neutral
+s13,Fast charging 30 min me full kar deta hai,battery,positive
+s14,Screen pe scratch jaldi aa jate hain,display,negative
+s15,Overall accha phone hai is budget me,price,positive
+s16,Night mode photos bahut acche aate hain,camera,positive
+s17,Phone hang hota hai bahut,performance,negative
+s18,Build quality plastic jaisi lagti hai,design,negative
+s19,Customer care ne koi help nahi ki,service,negative
+s20,Brightness outdoor me kaafi achhi hai,display,positive
+s21,Battery din bhar aaram se chal jati hai,battery,positive
+s22,Video recording stable hai,camera,positive
+s23,Sound quality decent hai,audio,positive
+s24,Charger box me nahi diya bakwas,battery,negative
+s25,Look bahut stylish hai,design,positive
+s26,Refresh rate 120hz hai toh scrolling smooth hai,display,positive
+s27,Seller ne used phone bhej diya fake hai,service,negative
+s28,Paisa barbaad mat karo worst phone,price,negative
+s29,Phone thoda heavy hai haath me,design,negative
+s30,Games bina lag ke chalte hain,performance,positive
+s31,Camera zoom karne pe photo phat jati hai,camera,negative
+s32,Battery normal hai na accha na bura,battery,neutral
+s33,AMOLED display colours bahut vibrant hain,display,positive
+s34,Replacement jaldi mil gaya thanks,service,positive
+s35,Volume button kaam nahi karta,design,negative
+s36,Camera aur display dono kamaal ke hain,camera,positive
+s36,Camera aur display dono kamaal ke hain,display,positive
+s37,Phone ki keemat zyada hai,price,negative
+s38,Heating issue hai charging ke time,battery,negative
+s39,Mujhe iska design bahut pasand aaya,design,positive
+s40,Speaker loud aur clear hai,audio,positive

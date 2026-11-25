@@ -1,0 +1,45 @@
+<!-- Label Studio: Create project -> Labeling Setup -> Custom template -> paste this.
+     Import data/own/to_annotate.csv (column "text"). For each aspect the review
+     talks about, pick its sentiment; leave the rest on "not mentioned". -->
+<View>
+  <Header value="Hinglish product review"/>
+  <Text name="text" value="$text"/>
+  <Header value="Aspect sentiment (leave 'not mentioned' if absent)" size="5"/>
+  <View style="display:grid; grid-template-columns: 1fr 1fr; gap: 8px">
+    <View><Header value="Battery" size="6"/>
+      <Choices name="battery" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Camera" size="6"/>
+      <Choices name="camera" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Display" size="6"/>
+      <Choices name="display" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Performance" size="6"/>
+      <Choices name="performance" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Price / value" size="6"/>
+      <Choices name="price" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Design / build" size="6"/>
+      <Choices name="design" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Audio" size="6"/>
+      <Choices name="audio" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+    <View><Header value="Service / delivery" size="6"/>
+      <Choices name="service" toName="text" choice="single" showInline="true">
+        <Choice value="not mentioned" selected="true"/><Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+      </Choices></View>
+  </View>
+  <Choices name="usable" toName="text" choice="single" showInline="true">
+    <Choice value="usable" selected="true"/><Choice value="spam / not a review"/><Choice value="not Hinglish"/>
+  </Choices>
+</View>

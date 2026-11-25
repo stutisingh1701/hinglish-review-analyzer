@@ -1,0 +1,167 @@
+{
+  "lid_data": {
+    "train": {
+      "sentences": 31756,
+      "tokens": 968232
+    },
+    "validation": {
+      "sentences": 6279,
+      "tokens": 193718
+    },
+    "test": {
+      "sentences": 6420,
+      "tokens": 193547
+    }
+  },
+  "lid": [
+    {
+      "model": "Char 4-gram LM (add-k, no context)",
+      "accuracy": 0.9464161159821646,
+      "macro_f1": 0.9338636686426298,
+      "train_sec": 3.9
+    },
+    {
+      "model": "HMM bigram + Viterbi",
+      "accuracy": 0.9821180385126094,
+      "macro_f1": 0.9784065033952019,
+      "train_sec": 1.4
+    },
+    {
+      "model": "CRF (word/char features)",
+      "accuracy": 0.9822678729197559,
+      "macro_f1": 0.9785633396462995,
+      "train_sec": 73.3
+    },
+    {
+      "model": "CRF + char-LM features",
+      "accuracy": 0.9806610280707012,
+      "macro_f1": 0.9766719082911322,
+      "train_sec": 113.2
+    }
+  ],
+  "lid_crf_train_sentences": 31756,
+  "ner_data": {
+    "sentences": 3085,
+    "train": 2621,
+    "test": 464,
+    "entities": {
+      "Per": 2138,
+      "Org": 1432,
+      "Loc": 762
+    }
+  },
+  "ner": [
+    {
+      "model": "HMM bigram + Viterbi",
+      "precision": 0.4783427495291902,
+      "recall": 0.41166936790923825,
+      "f1": 0.44250871080139376,
+      "train_sec": 0.1,
+      "f1_Per": 0.4022140221402214,
+      "f1_Org": 0.41687344913151364,
+      "f1_Loc": 0.6009852216748768
+    },
+    {
+      "model": "CRF (word/char/context)",
+      "precision": 0.8014981273408239,
+      "recall": 0.6936790923824959,
+      "f1": 0.7437011294526498,
+      "train_sec": 10.0,
+      "f1_Per": 0.7341337907375642,
+      "f1_Org": 0.7493261455525607,
+      "f1_Loc": 0.7614213197969543
+    },
+    {
+      "model": "CRF + language-ID features",
+      "precision": 0.7932960893854749,
+      "recall": 0.6904376012965965,
+      "f1": 0.7383015597920277,
+      "train_sec": 15.6,
+      "f1_Per": 0.7322033898305085,
+      "f1_Org": 0.7391304347826086,
+      "f1_Loc": 0.7551020408163266
+    }
+  ],
+  "acsa_data": {
+    "train": 3039,
+    "test": 777,
+    "skipped_train": 2,
+    "skipped_test": 23,
+    "aspects_train": {
+      "ambience": 431,
+      "anecdotes/miscellaneous": 1128,
+      "food": 1231,
+      "service": 597,
+      "price": 321
+    },
+    "polarity_train": {
+      "positive": 2174,
+      "neutral": 500,
+      "negative": 839,
+      "conflict": 195
+    }
+  },
+  "acsc_report_lr": "              precision    recall  f1-score   support\n\n    conflict     0.3571    0.3922    0.3738        51\n    negative     0.6587    0.6199    0.6387       221\n     neutral     0.4000    0.5495    0.4630        91\n    positive     0.8479    0.8130    0.8301       631\n\n    accuracy                         0.7243       994\n   macro avg     0.5659    0.5936    0.5764       994\nweighted avg     0.7397    0.7243    0.7305       994\n",
+  "absa": [
+    {
+      "script": "romanized",
+      "model": "Complement NB",
+      "acd_precision": 0.8411764705882353,
+      "acd_recall": 0.7193158953722334,
+      "acd_f1": 0.7754880694143168,
+      "acsc_accuracy": 0.7364185110663984,
+      "acsc_macro_f1": 0.46940379420357176,
+      "joint_f1": 0.577006507592191
+    },
+    {
+      "script": "romanized",
+      "model": "Logistic Regression",
+      "acd_precision": 0.8591983556012333,
+      "acd_recall": 0.8410462776659959,
+      "acd_f1": 0.8500254194204372,
+      "acsc_accuracy": 0.7243460764587525,
+      "acsc_macro_f1": 0.5763966161842943,
+      "joint_f1": 0.630401626842908
+    },
+    {
+      "script": "romanized",
+      "model": "Linear SVM",
+      "acd_precision": 0.8736951983298539,
+      "acd_recall": 0.8420523138832998,
+      "acd_f1": 0.8575819672131149,
+      "acsc_accuracy": 0.7233400402414487,
+      "acsc_macro_f1": 0.560658901176775,
+      "joint_f1": 0.6290983606557377
+    },
+    {
+      "script": "original script",
+      "model": "Complement NB",
+      "acd_precision": 0.8452520515826495,
+      "acd_recall": 0.7253521126760564,
+      "acd_f1": 0.7807255008121278,
+      "acsc_accuracy": 0.7263581488933601,
+      "acsc_macro_f1": 0.45569296987087515,
+      "joint_f1": 0.5739036275040607
+    },
+    {
+      "script": "original script",
+      "model": "Logistic Regression",
+      "acd_precision": 0.8615702479338843,
+      "acd_recall": 0.8390342052313883,
+      "acd_f1": 0.8501529051987766,
+      "acsc_accuracy": 0.727364185110664,
+      "acsc_macro_f1": 0.5725031573941242,
+      "joint_f1": 0.636085626911315
+    },
+    {
+      "script": "original script",
+      "model": "Linear SVM",
+      "acd_precision": 0.8773388773388774,
+      "acd_recall": 0.8490945674044266,
+      "acd_f1": 0.8629856850715747,
+      "acsc_accuracy": 0.7404426559356136,
+      "acsc_macro_f1": 0.5794490473590919,
+      "joint_f1": 0.6503067484662576
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "scores": {
+    "reviews": 40,
+    "aspect_f1": 0.9647058823529412,
+    "aspect_precision": 0.9534883720930233,
+    "aspect_recall": 0.9761904761904762,
+    "sentiment_accuracy_on_found_aspects": 0.5238095238095238,
+    "sentiment_macro_f1": 0.42476190476190484,
+    "joint_f1": 0.5057471264367817
+  },
+  "mistakes": [
+    {
+      "text": "Camera bohot mast hai but battery jaldi khatam ho jati h",
+      "gold": [
+        [
+          "battery",
+          "negative"
+        ],
+        [
+          "camera",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "battery",
+          "neutral"
+        ],
+        [
+          "camera",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "Camera quality accha nahi hai photos blur aati hain",
+      "gold": [
+        [
+          "camera",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "camera",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Speaker ki awaaz bahut low hai",
+      "gold": [
+        [
+          "audio",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "audio",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Selfie camera thik thak hai",
+      "gold": [
+        [
+          "camera",
+          "neutral"
+        ]
+      ],
+      "pred": [
+        [
+          "camera",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "Screen pe scratch jaldi aa jate hain",
+      "gold": [
+        [
+          "display",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "display",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "Build quality plastic jaisi lagti hai",
+      "gold": [
+        [
+          "design",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "design",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Customer care ne koi help nahi ki",
+      "gold": [
+        [
+          "service",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "service",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Battery din bhar aaram se chal jati hai",
+      "gold": [
+        [
+          "battery",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "battery",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Video recording stable hai",
+      "gold": [
+        [
+          "camera",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "camera",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Charger box me nahi diya bakwas",
+      "gold": [
+        [
+          "battery",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "battery",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "Look bahut stylish hai",
+      "gold": [
+        [
+          "design",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "design",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Paisa barbaad mat karo worst phone",
+      "gold": [
+        [
+          "price",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "price",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "Phone thoda heavy hai haath me",
+      "gold": [
+        [
+          "design",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "design",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Games bina lag ke chalte hain",
+      "gold": [
+        [
+          "performance",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "performance",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Camera zoom karne pe photo phat jati hai",
+      "gold": [
+        [
+          "camera",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "camera",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Battery normal hai na accha na bura",
+      "gold": [
+        [
+          "battery",
+          "neutral"
+        ]
+      ],
+      "pred": [
+        [
+          "battery",
+          "positive"
+        ]
+      ]
+    },
+    {
+      "text": "AMOLED display colours bahut vibrant hain",
+      "gold": [
+        [
+          "display",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "display",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Replacement jaldi mil gaya thanks",
+      "gold": [
+        [
+          "service",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "service",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Volume button kaam nahi karta",
+      "gold": [
+        [
+          "design",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "audio",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "text": "Phone ki keemat zyada hai",
+      "gold": [
+        [
+          "price",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "price",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "text": "Heating issue hai charging ke time",
+      "gold": [
+        [
+          "battery",
+          "negative"
+        ]
+      ],
+      "pred": [
+        [
+          "battery",
+          "negative"
+        ],
+        [
+          "performance",
+          "negative"
+        ]
+      ]
+    },
+    {
+      "text": "Speaker loud aur clear hai",
+      "gold": [
+        [
+          "audio",
+          "positive"
+        ]
+      ],
+      "pred": [
+        [
+          "audio",
+          "neutral"
+        ]
+      ]
+    }
+  ]
+}

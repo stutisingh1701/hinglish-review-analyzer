@@ -1,0 +1,8 @@
+data/external/
+__pycache__/
+*.pyc
+data/own/raw_comments.csv
+data/own/annotated*.csv
+results/transformers/
+models/transformers/
+.ipynb_checkpoints/
